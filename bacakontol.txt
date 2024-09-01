@@ -1,0 +1,23 @@
+{hurufangkarandom,10} = untuk random huruf dan angka 10
+{angkarandom,10} = untuk random angka 10
+{hurufrandom,10} = untuk random huruf 10
+{email} = Untuk mendeteksi penerima di letter
+{useragent} = Untuk Random User Agent
+{ip} = untuk random ip
+{negara} = untuk random negara
+{device} = untuk random device
+{kota} = untuk random kota
+{link} = untuk random link
+
+Jika ingin menggunakan custom header edit di file send.php
+
+Cara menambahkan Custom header
+    Awalnya seperti ini 
+    $headers->addTextHeader('X-Custom-Header', 'CustomHeaderValue');
+
+    Jika ingin menambahkan header lainnya atau lebih dari 1 seperti ini
+        $headers->addTextHeader('X-Custom-Header', 'peli 1');
+        $headers->addTextHeader('X-Custom-Header', 'peli 2');
+ Support MULTY SMTP Menggunakan methode Rotasi/Rotate Pada saat mengirim email
+bisa menggunakan random from name dan email
+Support rotasi From email atau From name menggunakan file .txt pada saat pengiriman
